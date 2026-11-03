@@ -1,0 +1,13 @@
+{
+  "name": "kindred-dating-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local-first dating app MVP with accounts, matching, chat, and safety controls.",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

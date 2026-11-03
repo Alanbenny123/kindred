@@ -1,0 +1,43 @@
+# Local prototype data and uploaded user photos
+/data/
+/uploads/
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!**/.env.example
+**/local.properties
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+*.pem
+*.key
+
+# Node, Flutter, Dart, and generated builds
+**/node_modules/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/doc/api/
+**/.wrangler/
+**/.appwrite/
+*.apk
+*.aab
+*.ipa
+*.log
+*.iml
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+**/ios/Pods/
+**/ios/Flutter/.last_build_id
+**/DerivedData/
